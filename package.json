@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@fontsource/outfit": "^5.0.12",
+    "@fontsource/roboto": "^5.0.8"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
