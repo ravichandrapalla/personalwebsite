@@ -7,8 +7,10 @@ import closeIcon from "../../assets/nav/closeIcon.png";
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav>
-      <a>My Portfolio</a>
+    <nav className={styles.navbar}>
+      <a className={styles.title} href="/">
+        My Portfolio
+      </a>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -16,15 +18,21 @@ export const Navbar = () => {
           alt="menu-button"
           onClick={() => setMenuOpen((open) => !open)}
         />
-        <ul>
+        <ul
+          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          onClick={() => setMenuOpen(false)}
+        >
           <li>
-            <a href=""></a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href=""></a>
+            <a href="#experience">Experience</a>
           </li>
           <li>
-            <a href=""></a>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contect">Contact</a>
           </li>
         </ul>
       </div>
