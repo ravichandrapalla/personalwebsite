@@ -5,6 +5,12 @@ import html from "../../assets/skills/html.png";
 import css from "../../assets/skills/css.png";
 import react from "../../assets/skills/react.png";
 import node from "../../assets/skills/node.png";
+import JavaScript from "../../assets/skills/JavaScript.png";
+import Redux from "../../assets/skills/Redux.png";
+import ReduxSaga from "../../assets/skills/ReduxSaga.png";
+import Sass from "../../assets/skills/Sass.png";
+import StyledComponents from "../../assets/skills/StyledComponents.png";
+import Tailwind from "../../assets/skills/Tailwind.png";
 
 const getIcon = (name) => {
   switch (name) {
@@ -16,6 +22,18 @@ const getIcon = (name) => {
       return react;
     case "node":
       return node;
+    case "JavaScript":
+      return JavaScript;
+    case "Redux":
+      return Redux;
+    case "ReduxSaga":
+      return ReduxSaga;
+    case "Sass":
+      return Sass;
+    case "StyledComponents":
+      return StyledComponents;
+    case "Tailwind":
+      return Tailwind;
     default:
       return null;
   }

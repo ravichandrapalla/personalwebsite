@@ -14,5 +14,29 @@
   {
     "title": "Node",
     "imageSrc": "node"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "JavaScript"
+  },
+  {
+    "title": "Redux",
+    "imageSrc": "Redux"
+  },
+  {
+    "title": "ReduxSaga",
+    "imageSrc": "ReduxSaga"
+  },
+  {
+    "title": "Sass",
+    "imageSrc": "Sass"
+  },
+  {
+    "title": "St Components",
+    "imageSrc": "StyledComponents"
+  },
+  {
+    "title": "Tailwind",
+    "imageSrc": "Tailwind"
   }
 ]
