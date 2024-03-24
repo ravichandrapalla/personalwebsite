@@ -18,7 +18,7 @@ const getImage = (text) => {
 
 export const Contact = () => {
   return (
-    <footer id="contact" className={styles.container}>
+    <footer id="contact" className={styles.container} data-aos="flip-up">
       <div className={styles.text}>
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>

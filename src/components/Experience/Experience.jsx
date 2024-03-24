@@ -47,7 +47,7 @@ export const Experience = () => {
           {skills.map((skill, id) => {
             return (
               <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
+                <div className={styles.skillImageContainer} data-aos="zoom-in">
                   <img src={getIcon(skill.imageSrc)} alt={skill.title} />
                 </div>
                 <p>{skill.title}</p>

@@ -5,7 +5,13 @@ import MyAiImage from "../../assets/hero/MyAiImage.png";
 
 export const Hero = () => {
   return (
-    <section className={styles.container}>
+    <section
+      className={styles.container}
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-delay="100"
+      data-aos-offset="200"
+    >
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Ravi Chandra</h1>
         <p className={styles.description}>
@@ -16,6 +22,10 @@ export const Hero = () => {
         <a
           href="mailto:ravichandrapalla1997@gmail.com"
           className={styles.contactBtn}
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="100"
+          data-aos-offset="200"
         >
           Contact Me
         </a>
