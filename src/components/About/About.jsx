@@ -16,8 +16,8 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I am a frontend developer with experience in building responsive
-                and optimized sites
+                I am a frontend developer at Visit Health pvt Ltd with
+                experience in building responsive and optimized sites.
               </p>
             </div>
           </li>
@@ -27,9 +27,9 @@ export const About = () => {
               <h3>Research Associate</h3>
               <p>
                 I have experience Working with CAD, Ansys, Catia for Product
-                Analysis. And also i am the one of only five people from India
-                who got chance to publish Research papaer at HEFAT 2021 held at
-                South Africa by American university.
+                Analysis at VRSEC Research Cell. And also i am the one of only
+                five people from India who got chance to publish Research papaer
+                at HEFAT 2021 held at South Africa by American university.
               </p>
             </div>
           </li>

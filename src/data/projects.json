@@ -2,25 +2,39 @@
   {
     "title": "Project A",
     "imageSrc": "WildOasis",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "This project is based on the idea of cabin booking for tourists. Developed to learn below mentioned skills. Frontend(React), Backend (Supabase)",
+    "skills": [
+      "React",
+      "Supabase",
+      "react-hook-form",
+      "react-query",
+      "react-router-dom",
+      "recharts",
+      "styled-components"
+    ],
+    "demo": "https://oasis-app-devlp.vercel.app/",
+    "source": "https://github.com/ravichandrapalla/oasisApp"
   },
   {
     "title": "Project B",
     "imageSrc": "TypoT",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "This project is based on React and designed to help people who want to improve there typing skills like Gov exam aspirants. implemented features like theme changing etc",
+    "skills": [
+      "React",
+      "Firebase",
+      "emotion Ui",
+      "Material Ui",
+      "React-charts"
+    ],
+    "demo": "https://main--coruscating-bublanina-ca1b69.netlify.app/",
+    "source": "https://github.com/ravichandrapalla/TypoT"
   },
   {
     "title": "Project C",
     "imageSrc": "PigGame",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "This Project is based on a small game called as PigGame made to Learn HTML, Javascript and css ",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://ravichandrapalla.github.io/Pig-Game/",
+    "source": "https://github.com/ravichandrapalla/Pig-Game"
   }
 ]
