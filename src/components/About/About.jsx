@@ -12,7 +12,7 @@ export const About = () => {
         <img src={MyPhoto} alt="Me" className={styles.aboutImage} />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={cursorIcon} alt="Cursor icon" />
+            {/* <img src={cursorIcon} alt="Cursor icon" /> */}
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
@@ -22,7 +22,17 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={serverIcon} alt="Server icon" />
+            {/* <img src={serverIcon} alt="Server icon" /> */}
+            <div className={styles.aboutItemText}>
+              <h3>Acciojob Full Stack Developer Trainee</h3>
+              <p>
+                Joined Acciojob and honed skills like Java DSA, OOPS, Sql, and
+                Frontend Technologies
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            {/* <img src={serverIcon} alt="Server icon" /> */}
             <div className={styles.aboutItemText}>
               <h3>Research Associate</h3>
               <p>
